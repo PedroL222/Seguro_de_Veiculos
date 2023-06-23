@@ -1,4 +1,12 @@
+*{
+    font-size: 1.05rem;
+}
+
 #body_style{
+    background-color: #3A4CDB;
+}
+
+#navBar{
     background-color: #3A4CDB;
 }
 
@@ -9,3 +17,97 @@
     height: 2.5rem;
     margin-bottom: -0.7rem;
 }
+
+.link_nav{
+    font-weight: 500;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.link_nav:hover{
+    color: rgba(255, 255, 255, 0.705) !important ;
+}
+
+#icon_login{
+    font-size: 25px;
+    color: white;
+}
+
+/* Animação da Section Inicial */
+
+.fade-in-left.fade-in {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.fade-in-right.fade-in {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+
+/* Classe para desaparecer suavemente para a esquerda */
+.fade-out-left {
+    animation: fadeOutLeft 0.5s forwards;
+}
+
+@keyframes fadeOutLeft {
+    0% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    100% {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+}
+
+/* Classe para desaparecer suavemente para a direita */
+.fade-out-right {
+    animation: fadeOutRight 0.5s forwards;
+}
+
+@keyframes fadeOutRight {
+    0% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    100% {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+}
+
+.fade-in-left{
+    animation: fadeInLeft 1s forwards;
+}
+
+
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.fade-in-right{
+    animation: fadeInRight 1s forwards;
+}
+
+
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(50);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+/* Fim da Animação da Section Inicial */
