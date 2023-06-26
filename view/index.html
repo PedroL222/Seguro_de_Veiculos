@@ -13,7 +13,7 @@
 <body class="conteiner-fluid pt-5" id="body_style">
     <!-- NavBar -->
 
-    <nav id="navBar" class="navbar navbar-expand-lg m-auto fixed-top">
+    <nav id="navBar" class="navbar navbar-expand-lg m-auto fixed-top"> 
         <div class="container-fluid col-10">
             <a class="navbar-brand text-white" href="#"><img style="width: 3rem;" src="../images/carro.png" alt=""> <div class="ms-1 me-1" id="linha_nav" ></div>  Marca</a>
                 
@@ -26,7 +26,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav m-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a id="teste" class="nav-link text-white ms-lg-5 link_nav" href="#">nossos planos</a>
+                        <a id="teste" class="nav-link text-white link_nav" href="#">nossos planos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-white link_nav" href="#">quem pode assinar</a>
@@ -57,21 +57,99 @@
 
     <!-- Main -->
 
-    <main style="height: 2000px;" class="container mt-5">
+    <main style="height: 2000px;" class="container-fluid p-0 pt-5">
 
-        <section id="section_inicial" class="row ">
+        <section id="section_inicial" class="row container m-auto">
             <div id="frases_inicial" class="col-lg-6 col-12">
                 <h1 class="text-white mb-4">a proteção do jeito que você sempre quis para o seu carro!</h1>
                 <h5 class="text-white mb-4">o melhor seguro para seu carro agora muito mais barato</h5>
                 <a class="btn btn-light fw-bold p-2" href="">faça seu seguro</a>
             </div>
-            <div id="img_inicial" class="col-lg-6 col-12  ">
+            <div id="img_inicial" class="col-lg-6 col-11">
                 <img class="img-fluid m-auto" src="../images/carro-banner.png" alt="">
             </div>
         </section>
 
-        <section>
+        <section class="bg-white container-fluid pt-5 pb-4 d-flex flex-column">
+            <h2 class="text-center fw-bold titulo_passo_a_passo">contrate online em apenas 3 passos</h2>
+            <p class="text-muted text-center titulo_passo_a_passo">é tudo fácil e rápido venha ver</p>
+            <div class="row container m-auto justify-content-center align-items-center">
+                <div class="col-4 d-flex flex-column justify-content-center align-items-center">
+                    <div class="circulo_passo_a_passo">
+                       <span class="fw-bold">1</span>
+                    </div>
+                    <p class="text-center fw-bold p_circulo font_responsiva mt-1">preencha os dados do seu carro e faça uma simulação.</p>
+                </div>
+                <div class="col-4 d-flex flex-column justify-content-center align-items-center">
+                    <div class="circulo_passo_a_passo">
+                        <span class="fw-bold">2</span>
+                    </div>
+                    <p class="text-center fw-bold p_circulo font_responsiva mt-1">informe seus dados de pagamento e faça a sua vistoria.</p>
+                </div>
+                <div class="col-4 d-flex flex-column justify-content-center align-items-center">
+                    <div class="circulo_passo_a_passo">
+                       <span class="fw-bold">3</span>
+                    </div>
+                    <p class="text-center fw-bold p_circulo font_responsiva mt-1">após sua aprovação, seu carro já estará protegido por nós.</p>
+                </div>
+            </div>
+            <a style="background-color: #3A4CDB; width: 40%;" id="btn_passo_a_passo" class="btn text-white fw-bold p-2 mt-2 mb-2 align-self-center" href="">faça seu seguro</a>
+        </section>
+        
+        <section id="section_planos" class="container-fluid">
 
+            <h2 class="text-center fw-bold titulo_planos">o seguro que cabe no seu bolso</h2>
+            <p class=" text-white text-center titulo_planos fw-bold"><a class="text-white" href="">todas as informações gerais aqui</a></p>
+
+            <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center">
+
+                <div class="d-flex flex-column justify-content-center align-items-center col-12 col-lg-6 mb-4">
+                    <div id="div_recomendado" class="col-4 col-lg-4 text-white text-center p-1 fw-bold font_responsiva div_planos">
+                        recomendado
+                    </div>
+                    <div class="bg-white d-flex flex-column col-6 col-lg-6 p-3 div_planos">
+                        <h2  class="font_responsiva fw-bold">plano</h2>
+                        <h2 class="font_responsiva fw-bold">completo</h2>
+                        <p class="font_responsiva">o plano para você que deseja proteção total e todas as assistências.</p>
+                        <hr>
+                        <p class="font_responsiva"><i class="bi bi-bookmark-check-fill text-success icone_check_planos me-2"></i>batida parcial ou total</p>
+                        <p class="font_responsiva"><i class="bi bi-bookmark-check-fill text-success icone_check_planos me-2"></i>roubo e furto</p>
+                        <p class="font_responsiva"><i class="bi bi-bookmark-check-fill text-success icone_check_planos me-2"></i>cobertura a terceiros</p>
+                        <p class="font_responsiva"><i class="bi bi-bookmark-check-fill text-success icone_check_planos me-2"></i>cobertura a terceiros</p>
+                        <p class="font_responsiva"><i class="bi bi-bookmark-check-fill text-success icone_check_planos me-2"></i>aumento de cobertura a terceiros (item opcional)</p>
+                        <p class="font_responsiva"><i class="bi bi-bookmark-check-fill text-success icone_check_planos me-2"></i>alagamento</p>
+                        <p class="font_responsiva"><i class="bi bi-bookmark-check-fill text-success icone_check_planos me-2"></i>incêndio</p>
+                        <p class="font_responsiva"><i class="bi bi-bookmark-check-fill text-success icone_check_planos me-2"></i>guincho de até 400km</p>
+                        <p class="font_responsiva"><i class="bi bi-bookmark-check-fill text-success icone_check_planos me-2"></i>serviços 24h: chaveiro, troca de pneu e auxílio mecânico</p>
+                        <p class="font_responsiva"><i class="bi bi-bookmark-check-fill text-success icone_check_planos me-2"></i>reparos para vidros, faróis e retrovisores (item opcional)</p>
+                        <p class="font_responsiva"><i class="bi bi-bookmark-check-fill text-success icone_check_planos me-2"></i>voucher transporte por aplicativo</p>
+                    </div>
+                </div>
+                <div class=" d-flex align-items-center justify-content-center col-12 col-lg-6 mb-4 div_planos2">
+                    <div class="bg-white d-flex flex-column col-6 col-lg-6 p-3 mt-5">
+                        <h3 class="font_responsiva fw-bold">plano</h3>
+                        <h3 class="font_responsiva fw-bold">completo</h3>
+                        <p class="font_responsiva">o plano para você que deseja proteção total e todas as assistências.</p>
+                        <hr>
+                        <p class="font_responsiva"><i class="bi bi-bookmark-x-fill text-danger icone_check_planos me-2"></i>batida parcial ou total</p>
+                        <p class="font_responsiva"><i class="bi bi-bookmark-x-fill text-danger icone_check_planos me-2"></i>roubo e furto</p>
+                        <p class="font_responsiva"><i class="bi bi-bookmark-check-fill text-success icone_check_planos me-2"></i>cobertura a terceiros</p>
+                        <p class="font_responsiva"><i class="bi bi-bookmark-check-fill text-success icone_check_planos me-2"></i>cobertura a terceiros</p>
+                        <p class="font_responsiva"><i class="bi bi-bookmark-x-fill text-danger icone_check_planos me-2"></i>aumento de cobertura a terceiros (item opcional)</p>
+                        <p class="font_responsiva"><i class="bi bi-bookmark-x-fill text-danger icone_check_planos me-2"></i>alagamento</p>
+                        <p class="font_responsiva"><i class="bi bi-bookmark-check-fill text-success icone_check_planos me-2"></i>incêndio</p>
+                        <p class="font_responsiva"><i class="bi bi-bookmark-check-fill text-success icone_check_planos me-2"></i>guincho de até 400km</p>
+                        <p class="font_responsiva"><i class="bi bi-bookmark-check-fill text-success icone_check_planos me-2"></i>serviços 24h: chaveiro, troca de pneu e auxílio mecânico</p>
+                        <p class="font_responsiva"><i class="bi bi-bookmark-check-fill text-success icone_check_planos me-2"></i>reparos para vidros, faróis e retrovisores (item opcional)</p>
+                        <p class="font_responsiva"><i class="bi bi-bookmark-x-fill text-danger icone_check_planos me-2"></i>voucher transporte por aplicativo</p>
+                    </div>
+                </div>
+                </div>
+                
+                <div class="container-fluid d-flex justify-content-center">
+                    <a style="background-color: #3A4CDB; " id="btn_planos" class="btn text-white fw-bold p-2 mt-2 mb-2 col-8 col-md-4 col-lg-2" href="">faça seu seguro</a>
+                </div>
+                
         </section>
 
     </main>
@@ -81,40 +159,10 @@
     <!-- Javascript -->
 
     <script src="../bootstrap-5.3.0-dist/js/bootstrap.js"></script>
-
-    <script>
-        var frasesDiv = document.getElementById('frases_inicial');
-        var imgDiv = document.getElementById('img_inicial');
-        var isFraseVisible = true;
-        var isImgVisible = true;
-
-        window.addEventListener('scroll', function () {
-            var scrollPosition = window.scrollY;
-            console.log(scrollPosition);
-
-            if (scrollPosition >= 200 && isFraseVisible) {
-                frasesDiv.classList.remove('fade-in-left');
-                frasesDiv.classList.add('fade-out-left');
-                isFraseVisible = false;
-            } else if (scrollPosition < 200 && !isFraseVisible) {
-                frasesDiv.classList.remove('fade-out-left');
-                frasesDiv.classList.add('fade-in-left');
-                isFraseVisible = true;
-            }
-
-            if (scrollPosition >= 200 && isImgVisible) {
-                imgDiv.classList.remove('fade-in-right');
-                imgDiv.classList.add('fade-out-right');
-                isImgVisible = false;
-            } else if (scrollPosition < 200 && !isImgVisible) {
-                imgDiv.classList.remove('fade-out-right');
-                imgDiv.classList.add('fade-in-right');
-                isImgVisible = true;
-            }
-
-            
-        });
-    </script>
+    <script src="../js_controller/js_section_inicial.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="../js_controller/js_passo_a_passo.js"></script>
+    <script src="../js_controller/js_planos.js"></script>
 
     <!-- Fim do Javascript -->
 </body>

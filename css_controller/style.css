@@ -33,6 +33,59 @@
     color: white;
 }
 
+.circulo_passo_a_passo {
+    border: 0.2rem solid #3A4CDB;
+    border-radius: 100%;
+    min-width: 50px;
+    min-height: 50px;
+
+    width: 8vw;
+    height: 8vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#section_planos{
+    background-color: #2E97DB;
+}
+
+#div_recomendado{
+    background-color: #7F44DB;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.icone_check_planos{
+    font-size: 1.5rem;
+}
+
+/* MediaQuerys */
+
+/* Estilos para telas pequenas */
+@media (max-width: 576px) {
+    .font_responsiva {
+        font-size: 10px;
+    }
+}
+
+/* Estilos para telas médias */
+@media (min-width: 577px) and (max-width: 992px) {
+    .font_responsiva {
+        font-size: 16px;
+    }
+}
+
+/* Estilos para telas grandes */
+@media (min-width: 993px) {
+    .font_responsiva {
+        font-size: 18px;
+    }
+}
+
+/* Fim das MediaQuerys */
+
 /* Animação da Section Inicial */
 
 .fade-in-left.fade-in {
