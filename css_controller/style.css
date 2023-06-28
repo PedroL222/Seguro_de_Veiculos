@@ -2,12 +2,17 @@
     font-size: 1.05rem;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 #body_style{
     background-color: #3A4CDB;
 }
 
 #navBar{
     background-color: #3A4CDB;
+    border-bottom: 1px solid rgba(228, 225, 225, 0.39);
 }
 
 #linha_nav{
@@ -31,6 +36,11 @@
 #icon_login{
     font-size: 25px;
     color: white;
+}
+
+.div_passo_a_passo:hover{
+    scale: 1.05;
+    transition: 0.5s ease-in-out;
 }
 
 .circulo_passo_a_passo {
@@ -57,8 +67,17 @@
     border-radius: 5px 5px 0px 0px;
 }
 
+#plano_recomendado:hover, .div_planos2:hover{
+    scale: 1.03;
+    cursor: pointer;
+}
+
 .icone_check_planos{
     font-size: 1.5rem;
+}
+
+.caixas_especiais{
+    border: 2px solid gray; 
 }
 
 /* MediaQuerys */
@@ -68,6 +87,11 @@
     .font_responsiva {
         font-size: 10px;
     }
+    .font_responsiva_icones{
+        font-size: 20px;
+        width: 35px;
+        height: 35px;
+    }
 }
 
 /* Estilos para telas médias */
@@ -75,12 +99,22 @@
     .font_responsiva {
         font-size: 16px;
     }
+    .font_responsiva_icones{
+        font-size: 25px;
+        width: 45px;
+        height: 45px;
+    }
 }
 
 /* Estilos para telas grandes */
 @media (min-width: 993px) {
     .font_responsiva {
         font-size: 18px;
+    }
+    .font_responsiva_icones{
+        font-size: 35px;
+        width: 50px;
+        height: 50px;
     }
 }
 

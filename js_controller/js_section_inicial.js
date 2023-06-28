@@ -5,7 +5,6 @@ var frasesDiv = document.getElementById('frases_inicial');
 
         window.addEventListener('scroll', function () {
             var scrollPosition = window.scrollY;
-            console.log(scrollPosition);
 
             if (scrollPosition >= 200 && isFraseVisible) {
                 frasesDiv.classList.remove('fade-in-left');

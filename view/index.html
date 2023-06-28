@@ -15,8 +15,8 @@
 
     <nav id="navBar" class="navbar navbar-expand-lg m-auto fixed-top"> 
         <div class="container-fluid col-10">
-            <a class="navbar-brand text-white" href="#"><img style="width: 3rem;" src="../images/carro.png" alt=""> <div class="ms-1 me-1" id="linha_nav" ></div>  Marca</a>
-                
+            <a class="navbar-brand text-white" href="#section_inicial"><img style="width: 3rem;" src="../images/carro.png" alt=""> 
+              <div class="ms-1 me-1" id="linha_nav" ></div>  Marca</a> 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -26,19 +26,19 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav m-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a id="teste" class="nav-link text-white link_nav" href="#">nossos planos</a>
+                        <a class="nav-link text-white link_nav" href="#passos">como assinar</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white link_nav" href="#">quem pode assinar</a>
+                        <a class="nav-link text-white link_nav" href="#section_planos">nossos planos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active text-white link_nav" aria-current="page" href="#">como assinar</a>
+                        <a class="nav-link active text-white link_nav" aria-current="page" href="#informacoes">quem pode assinarr</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white link_nav" href="#">como acionar</a>
+                        <a class="nav-link text-white link_nav" href="#assistencia">como acionar</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white link_nav" href="#">dúvidas</a>
+                        <a class="nav-link text-white link_nav" href="#duvidas">dúvidas</a>
                     </li>
                 </ul>
                 <ul class="navbar-nav d-flex">
@@ -70,7 +70,7 @@
             </div>
         </section>
 
-        <section class="bg-white container-fluid pt-5 pb-4 d-flex flex-column">
+        <section id="passos" class="bg-white container-fluid pt-5 pb-4 d-flex flex-column">
             <h2 class="text-center fw-bold titulo_passo_a_passo">contrate online em apenas 3 passos</h2>
             <p class="text-muted text-center titulo_passo_a_passo">é tudo fácil e rápido venha ver</p>
             <div class="row container m-auto justify-content-center align-items-center">
@@ -93,21 +93,21 @@
                     <p class="text-center fw-bold p_circulo font_responsiva mt-1">após sua aprovação, seu carro já estará protegido por nós.</p>
                 </div>
             </div>
-            <a style="background-color: #3A4CDB; width: 40%;" id="btn_passo_a_passo" class="btn text-white fw-bold p-2 mt-2 mb-2 align-self-center" href="">faça seu seguro</a>
+            <a style="background-color: #3A4CDB; " id="btn_passo_a_passo" class="btn text-white fw-bold col-10 col-sm-8 col-md-6 col-lg-4 p-2 mt-2 mb-2 align-self-center" href="">faça seu seguro</a>
         </section>
         
-        <section id="section_planos" class="container-fluid">
+        <section id="section_planos" class="container-fluid pt-5 pb-5">
 
-            <h2 class="text-center fw-bold titulo_planos">o seguro que cabe no seu bolso</h2>
+            <h2 class="text-center fw-bold titulo_planos ">o seguro que cabe no seu bolso</h2>
             <p class=" text-white text-center titulo_planos fw-bold"><a class="text-white" href="">todas as informações gerais aqui</a></p>
 
             <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center">
 
-                <div class="d-flex flex-column justify-content-center align-items-center col-12 col-lg-6 mb-4">
-                    <div id="div_recomendado" class="col-4 col-lg-4 text-white text-center p-1 fw-bold font_responsiva div_planos">
+                <div id="plano_recomendado" class="d-flex flex-column justify-content-center align-items-center col-12 col-lg-6 mb-4">
+                    <div id="div_recomendado" class="col-8 col-md-6 col-lg-4 text-white text-center p-1 fw-bold font_responsiva div_planos">
                         recomendado
                     </div>
-                    <div class="bg-white d-flex flex-column col-6 col-lg-6 p-3 div_planos">
+                    <div class="bg-white d-flex flex-column col-10 col-md-8 col-lg-6 p-3 div_planos">
                         <h2  class="font_responsiva fw-bold">plano</h2>
                         <h2 class="font_responsiva fw-bold">completo</h2>
                         <p class="font_responsiva">o plano para você que deseja proteção total e todas as assistências.</p>
@@ -126,7 +126,7 @@
                     </div>
                 </div>
                 <div class=" d-flex align-items-center justify-content-center col-12 col-lg-6 mb-4 div_planos2">
-                    <div class="bg-white d-flex flex-column col-6 col-lg-6 p-3 mt-5">
+                    <div class="bg-white d-flex flex-column col-10 col-md-8 col-lg-6 p-3 mt-5">
                         <h3 class="font_responsiva fw-bold">plano</h3>
                         <h3 class="font_responsiva fw-bold">completo</h3>
                         <p class="font_responsiva">o plano para você que deseja proteção total e todas as assistências.</p>
@@ -152,6 +152,169 @@
                 
         </section>
 
+        <section id="informacoes" class="container-fluid bg-white pt-5 pb-4 d-flex flex-column">
+            <h2 class="text-center fw-bold titulo_planos mb-5">venha fazer parte do Marca</h2>
+            <div class="row container m-auto justify-content-center align-items-center">
+                <div class="col-4 d-flex flex-column justify-content-center align-items-center div_passo_a_passo">
+                    <div class="circulo_passo_a_passo">
+                       <span class="fw-bold"><i class="bi bi-geo-alt-fill font_responsiva_icones"></i></span>
+                    </div>
+                    <p class="text-center fw-bold p_circulo font_responsiva mt-1">estamos disponíveis em todos os estados do Brasil. Para saber se já chegamos na sua cidade, faça uma cotação.</p>
+                </div>
+                <div class="col-4 d-flex flex-column justify-content-center align-items-center div_passo_a_passo">
+                    <div class="circulo_passo_a_passo">
+                        <span class="fw-bold"><i class="bi bi-person font_responsiva_icones"></i></span>
+                    </div>
+                    <p class="text-center fw-bold p_circulo font_responsiva mt-1">todos com carro de uso exclusivamente particular. Ou seja, sem fins comerciais, como transporte de passageiros, etc.</p>
+                </div>
+                <div class="col-4 d-flex flex-column justify-content-center align-items-center div_passo_a_passo">
+                    <div class="circulo_passo_a_passo">
+                       <span class="fw-bold"><i class="bi bi-car-front font_responsiva_icones"></i></span>
+                    </div>
+                    <p class="text-center fw-bold p_circulo font_responsiva mt-1">automóveis de passeio nacionais e picapes, leves e pesadas, de até R$ 80 mil e com idade entre 3 e 25 anos.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="container-fluid pt-5 pb-4 bg-white">
+            <h2 class="text-center fw-bold titulo_passo_a_passo">condições especiais para clientes associados</h2>
+            <p class="text-muted text-center titulo_passo_a_passo mb-5">as melhores condições para clientes associados</p>
+            <div class="row d-flex flex-md-row flex-column justify-content-md-evenly align-items-center ">
+                <div class="col-10 mb-5 mb-md-0 p-2 col-md-4 d-flex flex-column align-items-start caixas_especiais">
+                    <img src="../images/desc.png" class="img-fluid font_responsiva_icones" alt="">
+                    <p class="fw-bold font_responsiva">desconto para sócios</p>
+                    <p class="text-muted font_responsiva">temos 5% de desconto para novos sócios</p>
+                    <p class="text-muted font_responsiva">temos 10% de desconto para investidores</p>
+                </div>
+                <div class="col-10 p-2 col-md-4 d-flex flex-column align-items-start caixas_especiais">
+                    <img src="../images/cartao.png" class="img-fluid font_responsiva_icones" alt="">
+                    <p class="fw-bold font_responsiva">mensal e sem taxas</p>
+                    <p class="text-muted font_responsiva">seguro mensal sem taxas de adesão ou cancelamento</p>
+                    <p class="text-muted font_responsiva">pague em dia e ganhe desconto todo mês</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="assistencia" style="background-color: #CCCEDC;" class="container-fluid m-0 pt-5 pb-4 row d-flex flex-column flex-md-row justify-content-center align-items-center">
+            <div class="col-10 col-md-8 ps-md-5 mb-5 mb-md-0 ms-5 ms-md-0 div_planos">
+                <img class="img-fluid col-10" src="../images/foto_mulher_no_pc.jpg" alt="">
+            </div>
+            <div class=" col-10 col-md-4 ms-5 ms-md-0 pe-5 d-flex flex-column justify-content-center align-items-start titulo_planos">
+                <h3 class=" fw-bold">precisou de assistência?</h3>
+                <p class="font_responsiva">caso aconteça algum imprevisto com o seu carro, não se preocupe! Acione nossa cobertura pelo <span class="font_responsiva fw-bold" style="color: #34af23;">WhatsApp</span>.</p>
+                <p class="font_responsiva">serão disponibilizadas peças novas compatíveis e certificadas para reparação do veículo diretamente em uma de nossas oficinas referenciadas.</p>
+                <a style="background-color: #3A4CDB;" class="btn font_responsiva text-white fw-bold" href=""><i class="bi bi-whatsapp me-1"></i>   fale conosco via WhatsApp</a>
+            </div>
+        </section>
+
+        <section id="duvidas" class="container-fluid bg-white m-0 p-5 row">
+            <div class="col-12 col-md-6 text-center text-md-start div_duvidas">
+                <h2 class="fw-bold">dúvidas-frequentes</h2>
+                <p class="font_responsiva">se preferir, fale com nossos atendentes:</p>
+                <p class="font_responsiva">(89) 00011-1000</p>
+            </div>
+            <div class="col-12 col-md-6 div_duvidas">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <p class="font_responsiva">O que é o nosso seguro?</p>
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <p class="font_responsiva">O nosso seguro é o seguro para o seu carro por assinatura mensal. Nascemos com o propósito de descomplicar a sua experiência ao assinar e usar serviços de seguro, por isso, você pode orçar e assinar online, sem burocracia.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <p class="font_responsiva">Sou sócio, tenho algum benefício?</p>
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p class="font_responsiva">Sim, Correntíssimo! Nós possuímos descontos de acordo com o seu segmento:</p>
+                            <p class="font_responsiva">- Padrão: 5% de desconto.</p>
+                            <p class="font_responsiva">- Sócios: 7% de desconto.</p>
+                            <p class="font_responsiva">Esse desconto será aplicado automaticamente a partir do seu CPF.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <p class="font_responsiva">Quem pode contratar?</p>
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <p class="font_responsiva">Pessoas que usam o carro de forma exclusivamente particular, nas categorias passeio nacional, picapes leves e pesadas. São aceitos veículos com idade entre 2 e 25 anos, com valor de até R$ 100 mil.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                          <p class="font_responsiva">Como eu assino?</p>
+                        </button>
+                      </h2>
+                      <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <p class="font_responsiva">Para assinar é simples: clique no botão: “faça seu seguro”, preencha algumas informações e verifique na hora a oferta que temos para você. Depois é só colocar os dados de pagamento, realizar a vistoria do seu carro e pronto! Seu carro fica seguro e você mais tranquilo.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingFive">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                          <p class="font_responsiva">Como é o Pagamento?</p>
+                        </button>
+                      </h2>
+                      <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <p class="font_responsiva">O pagamento será feito direto no seu cartão de crédito. Ah, e não se preocupe, não vamos comprometer o limite do seu cartão. O valor da mensalidade é cobrado mês a mês.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingSix">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                          <p class="font_responsiva">Quais são as coberturas e serviços?</p>
+                        </button>
+                      </h2>
+                      <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <p class="font_responsiva">Nós temos vários benefícios disponíveis para você. Dê uma olhadinha:</p>
+                          <p class="font_responsiva">- Cobertura para roubo, furto, batida parcial ou total, alagamento, incêndio e acidentes com terceiros.</p>
+                          <p class="font_responsiva">- Cobertura de R$ 20 mil para terceiros.</p>
+                          <p class="font_responsiva">- Assistência 24h para o seu carro com reboque, chaveiro e auxílio mecânico.</p>
+                          <p class="font_responsiva">- Atendimento online 24h.</p>
+                          <p class="font_responsiva">- Parcelamento da franquia em até 10x.</p>
+                          <p class="font_responsiva">- Voucher para aplicativo de transporte para uso em caso de furto, ou seja, quando seu carro estiver no reparo ou aguardando indenização.</p>
+                          <p class="font_responsiva">- Você também pode contar com reparos para vidros, faróis e retrovisores (item opcional).</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div> 
+            </div>
+        </section>
+
+        <footer style="background-color: #706A66;" class="container-fluid p-4 text-center text-white">
+          <a class="navbar-brand text-white" href="#">
+            <img style="width: 3rem;" src="../images/carro.png" alt=""> 
+            <div class="ms-1 me-1" id="linha_nav" ></div>  Marca
+          </a>
+          <p class="font_responsiva">Seguradora: Marca – CNPJ: 00.111.160/0011-11 – Seguro automóvel – Processo SUSEP nº 15414.603040/2022-37. Consulte as Condições Gerais. O registro do produto é automático e não representa aprovação ou recomendação por parte da Susep representando, exclusivamente, sua adequação às normas em vigor.</p>
+          <p class="font_responsiva">A Marca comercializa com exclusividade o produto seguro automóvel do Grupo de Seguro, na figura de corretora de seguros.</p>
+          <div class="d-flex">
+            <a href="" class="col-4 text-white font_responsiva">Política de privacidade</a>
+            <a href="" class="col-4 text-white font_responsiva">Configurações de Cookies</a>
+            <a href="" class="col-4 text-white font_responsiva">Condições Gerais Azul Seguros</a>
+          </div>
+        </footer>
+
     </main>
 
     <!-- Fim do Main -->
@@ -159,10 +322,14 @@
     <!-- Javascript -->
 
     <script src="../bootstrap-5.3.0-dist/js/bootstrap.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
     <script src="../js_controller/js_section_inicial.js"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="../js_controller/js_passo_a_passo.js"></script>
     <script src="../js_controller/js_planos.js"></script>
+    <script src="../js_controller/js_condicoes_esp.js"></script>
+    <script src="../js_controller/duvidas.js"></script>
+    <script src="../js_controller/scroll.js"></script>
 
     <!-- Fim do Javascript -->
 </body>
