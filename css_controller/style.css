@@ -85,7 +85,7 @@ html{
 /* Estilos para telas pequenas */
 @media (max-width: 576px) {
     .font_responsiva {
-        font-size: 10px;
+        font-size: 14px;
     }
     .font_responsiva_icones{
         font-size: 20px;
@@ -97,7 +97,7 @@ html{
 /* Estilos para telas médias */
 @media (min-width: 577px) and (max-width: 992px) {
     .font_responsiva {
-        font-size: 16px;
+        font-size: 18px;
     }
     .font_responsiva_icones{
         font-size: 25px;
@@ -109,7 +109,7 @@ html{
 /* Estilos para telas grandes */
 @media (min-width: 993px) {
     .font_responsiva {
-        font-size: 18px;
+        font-size: 20px;
     }
     .font_responsiva_icones{
         font-size: 35px;
