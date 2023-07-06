@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../bootstrap-5.3.0-dist/css/bootstrap.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="../css_controller/style.css">
+        <link rel="stylesheet" href="../css_controller/login.css">
+        <title>Marca</title>
+    </head>
+<body class="conteiner-fluid pt-5 bg-white">
+    <!-- NavBar -->
+
+    <nav id="navBar" class="navbar navbar-expand-lg m-auto fixed-top">
+        <div class="container-fluid col-12">
+          <a class="navbar-brand text-white" href="../view/index.html">
+            <img style="width: 3rem;" src="../images/carro.png" alt="">
+            <div class="ms-1 me-1" id="linha_nav"></div> Marca
+          </a>
+          
+        </div>
+      </nav>
+  
+      <!-- Fim da NavBar -->
+
+      <main class="p-3 pt-5 container justify-content-center col-12 align-items-center">
+        <div class="container">
+            <h1 class="pb-1 text-center">Login</h1>
+            <p class="font_responsiva pb-3 text-center text-muted">Informe os dados abaixo para acessar o Marca e conhecer nossos serviços.</p>
+            <form id="form_login" class="p-4" action="">
+                <label class="text-black font_responsiva mb-3" for="cpf_usu">seu cpf</label>
+                <input type="number" id="cpf_usu" name="cpf_usu" class="d-block col-12" aria-labelledby="passwordHelpBlock">
+                <label class="text-black font_responsiva mb-3 mt-3" for="senha_usu">digite sua senha</label>
+                <input type="text" id="senha_usu" name="senha_usu" class="d-block col-12" aria-labelledby="passwordHelpBlock">
+                <a class="font_responsiva" href="#">não lembro minha senha</a>
+                <button style="background-color: #3A4CDB; " id="btn_passo_a_passo" class="btn text-white d-block m-auto fw-bold col-10 col-sm-8 col-md-6 col-lg-4 p-2 mt-2 mb-2 align-self-center mt-4" type="submit">Entrar</button>
+            </form>
+        </div>
+
+      </main>
+
+      <script src="../bootstrap-5.3.0-dist/js/bootstrap.js"></script>
+      <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+</body>
+</html>

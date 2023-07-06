@@ -1,4 +1,4 @@
-$('nav a').click(function(e) {
+$('.link_scroll').click(function(e) {
     e.preventDefault();
     let id = $(this).attr('href');
     let targetOffset = $(id).offset();

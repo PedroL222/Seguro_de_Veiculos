@@ -1,0 +1,25 @@
+#form_cad_seguro{
+    background-color: rgb(255, 255, 255);
+}
+
+#placa_usu,#senha_usu,#modelo_carro_usu,#tipo_carro_usu{
+    background-color: rgb(255, 255, 255);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid 1px rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+}
+
+#linha_cad{
+    height: 1px;
+    background-color: green;
+    padding: 2px;
+}
+
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} 
+

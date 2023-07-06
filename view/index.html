@@ -15,7 +15,7 @@
 
     <nav id="navBar" class="navbar navbar-expand-lg m-auto fixed-top">
       <div class="container-fluid col-10">
-        <a data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" class="navbar-brand text-white" href="#section_inicial">
+        <a data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" class="navbar-brand text-white link_scroll" href="#section_inicial">
           <img style="width: 3rem;" src="../images/carro.png" alt="">
           <div class="ms-1 me-1" id="linha_nav"></div> Marca
         </a>
@@ -27,34 +27,34 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav m-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" class="nav-link text-white link_nav"
+              <a data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" class="nav-link text-white link_nav link_scroll"
                 href="#passos">como assinar</a>
             </li>
             <li class="nav-item">
-              <a data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" class="nav-link text-white link_nav"
+              <a data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" class="nav-link text-white link_nav link_scroll"
                 href="#section_planos">nossos planos</a>
             </li>
             <li class="nav-item">
               <a data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show"
-                class="nav-link active text-white link_nav" aria-current="page" href="#informacoes">quem pode assinar</a>
+                class="nav-link active text-white link_nav link_scroll" aria-current="page" href="#informacoes">quem pode assinar</a>
             </li>
             <li class="nav-item">
-              <a data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" class="nav-link text-white link_nav"
+              <a data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" class="nav-link text-white link_nav link_scroll"
                 href="#assistencia">como acionar</a>
             </li>
             <li class="nav-item">
-              <a data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" class="nav-link text-white link_nav"
+              <a data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" class="nav-link text-white link_nav link_scroll"
                 href="#duvidas">dúvidas</a>
             </li>
           </ul>
           <ul class="navbar-nav d-flex">
             <li class="d-flex">
-              <i id="icon_login" class="bi bi-person ms-0 mb-3 mb-lg-0 ms-lg-5 link_nav"></i>
-              <a data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show"
-                class="nav-link text-white me-2 link_nav" href="#">login</a>
+              <a href="../view/login.html"><i id="icon_login" class="bi bi-person ms-0 mb-3 mb-lg-0 ms-lg-5 link_nav"></i></a>
+              <a
+                class="nav-link text-white me-2 link_nav" href="../view/login.html">login</a>
             </li>
           </ul>
-          <a class="btn btn-light fw-bold p-2" href="">faça seu seguro</a>
+          <a class="btn btn-light fw-bold p-2" href="../view/cad_seguro/dados_veiculo.html">faça seu seguro</a>
         </div>
       </div>
     </nav>
@@ -69,7 +69,7 @@
             <div id="frases_inicial" class="col-lg-6 col-12">
                 <h1 class="text-white mb-4">a proteção do jeito que você sempre quis para o seu carro!</h1>
                 <h5 class="text-white mb-4">o melhor seguro para seu carro agora muito mais barato</h5>
-                <a class="btn btn-light fw-bold p-2" href="">faça seu seguro</a>
+                <a class="btn btn-light fw-bold p-2" href="../view/cad_seguro/dados_veiculo.html">faça seu seguro</a>
             </div>
             <div id="img_inicial" class="col-lg-6 col-11">
                 <img class="img-fluid m-auto" src="../images/carro-banner.png" alt="">
@@ -79,27 +79,35 @@
         <section id="passos" class="bg-white container-fluid pt-5 pb-4 d-flex flex-column">
             <h2 class="text-center fw-bold titulo_passo_a_passo">contrate online em apenas 3 passos</h2>
             <p class="text-muted text-center titulo_passo_a_passo">é tudo fácil e rápido venha ver</p>
+
             <div class="row container m-auto justify-content-center align-items-center">
+
+              <div class="row col-12 justify-content-around">
+                <div class="circulo_passo_a_passo col-4">
+                  <span class="fw-bold">1</span>
+                </div>
+                <div class="circulo_passo_a_passo col-4">
+                  <span class="fw-bold">2</span>
+                </div>
+                <div class="circulo_passo_a_passo col-4">
+                  <span class="fw-bold">3</span>
+                </div>
+              </div>
+
                 <div class="col-4 d-flex flex-column justify-content-center align-items-center">
-                    <div class="circulo_passo_a_passo">
-                       <span class="fw-bold">1</span>
-                    </div>
-                    <p class="text-center fw-bold p_circulo font_responsiva mt-1">preencha os dados do seu carro e faça uma simulação.</p>
+                    
+                    <p class="text-center fw-bold p_circulo font_responsiva mt-3">preencha os dados do seu carro e faça uma simulação.</p>
                 </div>
                 <div class="col-4 d-flex flex-column justify-content-center align-items-center">
-                    <div class="circulo_passo_a_passo">
-                        <span class="fw-bold">2</span>
-                    </div>
-                    <p class="text-center fw-bold p_circulo font_responsiva mt-1">informe seus dados de pagamento e faça a sua vistoria.</p>
+                    
+                    <p class="text-center fw-bold p_circulo font_responsiva mt-3">informe seus dados de pagamento e faça a sua vistoria.</p>
                 </div>
                 <div class="col-4 d-flex flex-column justify-content-center align-items-center">
-                    <div class="circulo_passo_a_passo">
-                       <span class="fw-bold">3</span>
-                    </div>
-                    <p class="text-center fw-bold p_circulo font_responsiva mt-1">após sua aprovação, seu carro já estará protegido por nós.</p>
+                    
+                    <p class="text-center fw-bold p_circulo font_responsiva mt-3">após sua aprovação, seu carro já estará protegido por nós.</p>
                 </div>
             </div>
-            <a style="background-color: #3A4CDB; " id="btn_passo_a_passo" class="btn text-white fw-bold col-10 col-sm-8 col-md-6 col-lg-4 p-2 mt-2 mb-2 align-self-center" href="">faça seu seguro</a>
+            <a style="background-color: #3A4CDB; " id="btn_passo_a_passo" class="btn text-white fw-bold col-10 col-sm-8 col-md-6 col-lg-4 p-2 mt-2 mb-2 align-self-center" href="../view/cad_seguro/dados_veiculo.html">faça seu seguro</a>
         </section>
         
         <section id="section_planos" class="container-fluid pt-5 pb-5">
@@ -153,7 +161,7 @@
                 </div>
                 
                 <div class="container-fluid d-flex justify-content-center">
-                    <a style="background-color: #3A4CDB; " id="btn_planos" class="btn text-white fw-bold p-2 mt-2 mb-2 col-8 col-md-4 col-lg-2" href="">faça seu seguro</a>
+                    <a style="background-color: #3A4CDB; " id="btn_planos" class="btn text-white fw-bold p-2 mt-2 mb-2 col-8 col-md-4 col-lg-2" href="../view/cad_seguro/dados_veiculo.html">faça seu seguro</a>
                 </div>
                 
         </section>
@@ -161,22 +169,29 @@
         <section id="informacoes" class="container-fluid bg-white pt-5 pb-4 d-flex flex-column">
             <h2 class="text-center fw-bold titulo_planos mb-5">venha fazer parte do Marca</h2>
             <div class="row container m-auto justify-content-center align-items-center">
+
+              <div class="row col-12 justify-content-around">
+                <div class="circulo_passo_a_passo col-4 div_passo_a_passo">
+                  <span class="fw-bold"><i class="bi bi-geo-alt-fill font_responsiva_icones"></i></span>
+                </div>
+                <div class="circulo_passo_a_passo col-4 div_passo_a_passo">
+                  <span class="fw-bold"><i class="bi bi-person font_responsiva_icones"></i></span>
+                </div>
+                <div class="circulo_passo_a_passo col-4 div_passo_a_passo">
+                  <span class="fw-bold"><i class="bi bi-car-front font_responsiva_icones"></i></span>
+                </div>
+              </div>
+
                 <div class="col-4 d-flex flex-column justify-content-center align-items-center div_passo_a_passo">
-                    <div class="circulo_passo_a_passo">
-                       <span class="fw-bold"><i class="bi bi-geo-alt-fill font_responsiva_icones"></i></span>
-                    </div>
+                    
                     <p class="text-center fw-bold p_circulo font_responsiva mt-1">estamos disponíveis em todos os estados do Brasil. Para saber se já chegamos na sua cidade, faça uma cotação.</p>
                 </div>
                 <div class="col-4 d-flex flex-column justify-content-center align-items-center div_passo_a_passo">
-                    <div class="circulo_passo_a_passo">
-                        <span class="fw-bold"><i class="bi bi-person font_responsiva_icones"></i></span>
-                    </div>
+                   
                     <p class="text-center fw-bold p_circulo font_responsiva mt-1">todos com carro de uso exclusivamente particular. Ou seja, sem fins comerciais, como transporte de passageiros, etc.</p>
                 </div>
                 <div class="col-4 d-flex flex-column justify-content-center align-items-center div_passo_a_passo">
-                    <div class="circulo_passo_a_passo">
-                       <span class="fw-bold"><i class="bi bi-car-front font_responsiva_icones"></i></span>
-                    </div>
+                    
                     <p class="text-center fw-bold p_circulo font_responsiva mt-1">automóveis de passeio nacionais e picapes, leves e pesadas, de até R$ 80 mil e com idade entre 3 e 25 anos.</p>
                 </div>
             </div>
@@ -195,7 +210,7 @@
                 <div class="col-10 p-2 col-md-4 d-flex flex-column align-items-start caixas_especiais">
                     <img src="../images/cartao.png" class="img-fluid font_responsiva_icones" alt="">
                     <p class="fw-bold font_responsiva">mensal e sem taxas</p>
-                    <p class="text-muted font_responsiva">seguro mensal sem taxas de adesão ou cancelamento</p>
+                    <p class="text-muted font_responsiva">seguro sem taxas de adesão ou cancelamento</p>
                     <p class="text-muted font_responsiva">pague em dia e ganhe desconto todo mês</p>
                 </div>
             </div>
