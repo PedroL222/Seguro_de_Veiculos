@@ -29,23 +29,21 @@
 
           <div class="container-fluid p-0 m-0">
             <div class="d-flex justify-content-between col-12">
-              <span class="col-8  mb-1 d-flex"><strong>dados pessoais</strong></span>
+              <span class="col-8 mb-1 d-flex"><strong>dados de contato</strong></span>
               <span>3 de 6</span>
             </div>
-            <div style="border: 1px solid black; border-radius: 4px;" class="container-fluid p-0 mb-3">
-              <div id="linha_cad" class="col-6"></div>
-              <div class="col-10"></div>
+            <div style="border: 1px solid black; border-radius: 4px;" class="container-fluid p-0 mb-3 ">
+              <div id="linha_cad" class="col-4"></div>
             </div>
           </div>
 
-            <h1 class="pb-1 text-center">ótimo, agora só precisamos de mais algumas informações</h1>
-            <p class="font_responsiva pb-3 text-center text-muted">Informe o CPF da pessoa que dirige o veículo.</p>
+            <h1 class="pb-1 text-center">Onde o carro fica?</h1>
+            <form id="form_cad_seguro" class="p-4" action="../cad_seguro/dados_pessoais.html">
 
-            <form id="form_cad_seguro" class="p-4" action="../cad_seguro/dados_contato.html">
-
-                <label class="text-black font_responsiva mb-3" for="cpf_usu">qual o CPF?</label>
+                <label class="text-black font_responsiva mb-3" for="cpf_usu">qual o CEP?</label>
                 <input type="text" id="placa_usu" name="placa_usu" class="d-block col-12" aria-labelledby="passwordHelpBlock">
 
+                <a class="font_responsiva" href="https://buscacepinter.correios.com.br/app/endereco/index.php" target="_blank">não sei meu CEP</a>
                 <button style="background-color: #3A4CDB; " id="btn_passo_a_passo" class="btn text-white d-block m-auto fw-bold col-10 col-sm-8 col-md-6 col-lg-4 p-2 mt-2 mb-2 align-self-center mt-4" type="submit">Próximo</button>
 
             </form>
@@ -56,4 +54,4 @@
       <script src="../../bootstrap-5.3.0-dist/js/bootstrap.js"></script>
       <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
 </body>
-</html>
+</html> 
